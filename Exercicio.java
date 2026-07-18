@@ -14,6 +14,10 @@ public class Exercicio {
         System.out.println("Agora nos conte a sua idade:");
         int idade = scanner.nextInt();
         System.out.println("Você tem " + idade + " anos!");
+        System.out.println("Agora nos conte o seu cpf:");
+        String cpf = scanner.next();
+        System.out.println("Seu cpf é " + cpf + "!");
+
         System.out.println("Agora nos conte a sua altura:");
         double altura = scanner.nextDouble();
         System.out.println("Você tem " + altura + " m de altura!");
@@ -25,9 +29,9 @@ public class Exercicio {
         String estadoCivil = scanner.next();
         System.out.println("Você é " + estadoCivil + "!");
 
-        System.out.println("Seu nome é " + nome + ", você tem " + idade + " anos, " + altura + " m de altura, pesa " + peso + " kg e é " + estadoCivil + "!");
+        System.out.println("Seu nome é " + nome + ", você tem " + idade + " anos, " + altura + " m de altura, pesa " + peso + " kg e " + "possui o cpf " + cpf + " e é " + estadoCivil + "!");
 
-
+        scanner.close();
     }
 
 }
